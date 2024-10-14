@@ -1,0 +1,74 @@
+Users Table
+{
+  "userId": "user123",
+  "age": 30,
+  "financialProfile": {
+    "income": 75000,
+    "expenses": 50000,
+    "savings": 25000,
+    "debt": 15000,
+    "creditScore": 720
+  },
+  "createdAt": "2023-01-01T00:00:00Z",
+  "updatedAt": "2023-06-15T12:30:00Z"
+}
+
+
+
+
+Financial Goals Table:
+{
+  "userId": "user123",
+  "goalId": "goal456",
+  "name": "Emergency Fund",
+  "targetAmount": 10000,
+  "currentAmount": 5000,
+  "startDate": "2023-02-01T00:00:00Z",
+  "endDate": "2024-02-01T00:00:00Z",
+  "status": "active",
+  "category": "Savings",
+  "createdAt": "2023-02-01T00:00:00Z",
+  "updatedAt": "2023-06-15T12:30:00Z"
+}
+
+
+Transactions Table:
+{
+  "userId": "user123",
+  "transactionId": "trans789",
+  "amount": 50.25,
+  "category": "Groceries",
+  "description": "Whole Foods Market",
+  "date": "2023-06-14T15:30:00Z",
+  "type": "expense"
+}
+
+
+Investment Options Table:
+{
+  "optionId": "inv101",
+  "name": "S&P 500 Index Fund",
+  "type": "Index Fund",
+  "riskLevel": "medium",
+  "potentialReturn": "7-10% annually",
+  "minimumInvestment": 1000,
+  "description": "A low-cost way to invest in 500 of the largest U.S. companies."
+}
+
+
+Credit Cards Table:
+{
+  "cardId": "card202",
+  "name": "Cash Rewards Platinum",
+  "issuer": "BorrowBank",
+  "annualFee": 0,
+  "rewardsType": "Cash Back",
+  "rewardsRate": "2% on all purchases",
+  "apr": "14.99% - 24.99% variable",
+  "creditScoreRequired": "Good to Excellent",
+  "benefits": [
+    "No annual fee",
+    "0% intro APR on purchases for 15 months",
+    "Travel insurance"
+  ]
+}
